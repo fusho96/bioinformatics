@@ -1,0 +1,13 @@
+SampleID	location	cycle
+D11	Kikuma	C1
+D12	Kikuma	C2
+D13	Kikuma	C3
+D21	Shiokawa river	C1
+D22	Shiokawa river	C2
+D23	Shiokawa river	C3
+D31	Okinawa beach	C1
+D32	Okinawa beach	C2
+D33	Okinawa beach	C3
+D51	Misaki seabed	C1
+D52	Misaki seabed	C2
+D53	Misaki seabed	C3
