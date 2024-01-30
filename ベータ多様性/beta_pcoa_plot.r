@@ -1,3 +1,4 @@
+library("ggplot2")
 
 # LOAD DATA
 metadata <- read.csv("metadata.csv", row.names=1)
