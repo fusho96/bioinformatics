@@ -1,5 +1,6 @@
 # OPTIONAL
 setwd("./alpha_div")
+.libPaths("./R/win-library/4.0")
 
 # LOAD
 library("amplicon")
@@ -13,4 +14,4 @@ metadata = read.table("metadata.txt",header=T,row.names = 1,sep='\t')
 (p = alpha_boxplot(alpha, metadata,"shannon","cycle"))
 
 # SAVE
-ggsave(paste0("alpha_box_cycle.pdf"),p,width = 95,height=56,units = "mm")
+ggsave(paste0("alpha_box_cycle_shannon.pdf"),p,width = 95,height=56,units = "mm")

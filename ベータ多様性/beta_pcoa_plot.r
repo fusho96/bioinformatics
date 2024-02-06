@@ -1,16 +1,17 @@
 library("ggplot2")
+library("ggrepel")
 
 # LOAD DATA
-metadata <- read.csv("metadata.csv", row.names=1)
+metadata = read.table("metadata.txt",header=T,row.names = 1,sep='\t')
 pcoa_score <- read.csv("pcoa_score.csv", row.names=1)
 points = cbind(pcoa_score,metadata)
 
-# PERCENTAGE
-pcoa1 = 46.4
-pcoa2 = 31.1
+# PERCENTAGE (EQUAL TO VALUES IN "PROPROTION")
+pcoa1 = 47.5
+pcoa2 = 33.0
 
 # PLOT
-p<- ggplot(points, aes(Axis.1, Axis.2, color=Location))+ 
+p<- ggplot(points, aes(axis1, axis2, color=series))+ 
     geom_point(alpha=.7, size=3)+
     theme_bw()+
     labs(x=paste("PCoA 1 (", format(pcoa1, digits=3), "%)", sep=""),
