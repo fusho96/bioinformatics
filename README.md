@@ -11,14 +11,14 @@ Tools used in this pipeline:
 
 Tools created as conda environments:
 (Thanks for developing these useful tools which helped me a lot in PhD research)
-1. [Prokka]{https://github.com/tseemann/prokka}
-2. [Clinker]{https://github.com/gamcil/clinker}
-3. [ISEScan]{https://github.com/xiezhq/ISEScan}
+1. [Prokka](https://github.com/tseemann/prokka)
+2. [Clinker](https://github.com/gamcil/clinker)
+3. [ISEScan](https://github.com/xiezhq/ISEScan)
 
 Online tools:
-1. [eggNOG-mapper]{http://eggnog-mapper.embl.de/}
-2. [KofamKOALA]{https://www.genome.jp/tools/kofamkoala/}
-3. [EzBioCloud]{https://www.ezbiocloud.net/}
+1. [eggNOG-mapper](http://eggnog-mapper.embl.de/)
+2. [KofamKOALA](https://www.genome.jp/tools/kofamkoala/)
+3. [EzBioCloud](https://www.ezbiocloud.net/)
 
 ## FOR 16S rRNA amplicon analysis
 Tutorials for using QIIME2 (command and galaxy) have been uploaded to the Google Drive, 
