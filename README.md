@@ -6,6 +6,19 @@ Tools used in this pipeline:
 2. MATLAB (ver. 2023b)
 3. Python (ver. 3.7)
 4. Miniconda on WSL2 (Ubuntu)
+5. Mauve (ver. 20150226)
+6. MEGA (ver. 6)
+
+Tools created as conda environments:
+(Thanks for developing these useful tools which helped me a lot in PhD research)
+1. [Prokka]{https://github.com/tseemann/prokka}
+2. [Clinker]{https://github.com/gamcil/clinker}
+3. [ISEScan]{https://github.com/xiezhq/ISEScan}
+
+Online tools:
+1. [eggNOG-mapper]{http://eggnog-mapper.embl.de/}
+2. [KofamKOALA]{https://www.genome.jp/tools/kofamkoala/}
+3. [EzBioCloud]{https://www.ezbiocloud.net/}
 
 ## FOR 16S rRNA amplicon analysis
 Tutorials for using QIIME2 (command and galaxy) have been uploaded to the Google Drive, 
