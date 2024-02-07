@@ -10,6 +10,7 @@ Tools used in this pipeline:
 6. MEGA (ver. 6)
 
 Tools created as conda environments:
+
 (Thanks for developing these useful tools which helped me a lot in PhD research)
 1. [Prokka](https://github.com/tseemann/prokka)
 2. [Clinker](https://github.com/gamcil/clinker)
@@ -33,9 +34,23 @@ QIIME2 use Kruskal-wallis tests for comparison between groups,
 which is not recommended here.
 Inside, codes using *R* to do the Dunn test are located in ./アルファ多様性/alpha_test.r
 
+dependant on libraries [agricolae](https://github.com/myaseen208/agricolae) and [dunn.test](https://github.com/cran/dunn.test).
+
 ### Ploting the alpha diversity
-1. Summarize the alpha diversities into one files ./アルファ多様性/alpha.txt
-2. 
+1. Summarize the alpha diversities into one file ./アルファ多様性/alpha.txt
+2. Run alpha_box_plot.r
+
+dependant on libraries [ggplot2](https://github.com/tidyverse/ggplot2) and [amplicon](https://github.com/microbiota/amplicon).
+
+3. Use Adobe Illustrator to revise the figures as you want.
+
+### Ploting the beta diversity
+1. Paste the pcoa result (ordination.txt) into ./ベータ多様性
+2. Run beta_pcoa_plot.r
+
+dependant on libraries [ggplot2](https://github.com/tidyverse/ggplot2) and [ggrepel](https://github.com/slowkow/ggrepel).
+
+4. Use Adobe Illustrator to revise the figures as you want.
 
 
 
