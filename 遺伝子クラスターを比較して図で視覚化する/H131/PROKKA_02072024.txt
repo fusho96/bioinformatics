@@ -1,0 +1,5 @@
+organism: Achromobacter species strain 
+contigs: 1
+bases: 102149
+CDS: 107
+tRNA: 1

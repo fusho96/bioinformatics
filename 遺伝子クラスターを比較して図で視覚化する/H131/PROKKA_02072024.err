@@ -1,0 +1,597 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:107 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 107 present
+DISC_FEATURE_COUNT:tRNA: 1 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:108 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:108 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::107 proteins have invalid IDs.
+H131/PROKKA_02072024:H1_3_1_1 (length 615)
+H131/PROKKA_02072024:H1_3_1_2 (length 267)
+H131/PROKKA_02072024:H1_3_1_3 (length 127)
+H131/PROKKA_02072024:H1_3_1_4 (length 437)
+H131/PROKKA_02072024:H1_3_1_5 (length 244)
+H131/PROKKA_02072024:H1_3_1_6 (length 175)
+H131/PROKKA_02072024:H1_3_1_7 (length 103)
+H131/PROKKA_02072024:H1_3_1_8 (length 90)
+H131/PROKKA_02072024:H1_3_1_9 (length 285)
+H131/PROKKA_02072024:H1_3_1_10 (length 296)
+H131/PROKKA_02072024:H1_3_1_11 (length 81)
+H131/PROKKA_02072024:H1_3_1_12 (length 67)
+H131/PROKKA_02072024:H1_3_1_13 (length 365)
+H131/PROKKA_02072024:H1_3_1_14 (length 619)
+H131/PROKKA_02072024:H1_3_1_15 (length 203)
+H131/PROKKA_02072024:H1_3_1_16 (length 248)
+H131/PROKKA_02072024:H1_3_1_17 (length 109)
+H131/PROKKA_02072024:H1_3_1_18 (length 221)
+H131/PROKKA_02072024:H1_3_1_19 (length 100)
+H131/PROKKA_02072024:H1_3_1_20 (length 167)
+H131/PROKKA_02072024:H1_3_1_21 (length 297)
+H131/PROKKA_02072024:H1_3_1_22 (length 75)
+H131/PROKKA_02072024:H1_3_1_23 (length 157)
+H131/PROKKA_02072024:H1_3_1_24 (length 385)
+H131/PROKKA_02072024:H1_3_1_25 (length 115)
+H131/PROKKA_02072024:H1_3_1_26 (length 318)
+H131/PROKKA_02072024:H1_3_1_27 (length 391)
+H131/PROKKA_02072024:H1_3_1_28 (length 71)
+H131/PROKKA_02072024:H1_3_1_29 (length 379)
+H131/PROKKA_02072024:H1_3_1_30 (length 358)
+H131/PROKKA_02072024:H1_3_1_31 (length 146)
+H131/PROKKA_02072024:H1_3_1_32 (length 585)
+H131/PROKKA_02072024:H1_3_1_33 (length 129)
+H131/PROKKA_02072024:H1_3_1_34 (length 484)
+H131/PROKKA_02072024:H1_3_1_35 (length 333)
+H131/PROKKA_02072024:H1_3_1_36 (length 485)
+H131/PROKKA_02072024:H1_3_1_37 (length 446)
+H131/PROKKA_02072024:H1_3_1_38 (length 53)
+H131/PROKKA_02072024:H1_3_1_39 (length 345)
+H131/PROKKA_02072024:H1_3_1_40 (length 397)
+H131/PROKKA_02072024:H1_3_1_41 (length 338)
+H131/PROKKA_02072024:H1_3_1_42 (length 223)
+H131/PROKKA_02072024:H1_3_1_43 (length 691)
+H131/PROKKA_02072024:H1_3_1_44 (length 292)
+H131/PROKKA_02072024:H1_3_1_45 (length 363)
+H131/PROKKA_02072024:H1_3_1_46 (length 253)
+H131/PROKKA_02072024:H1_3_1_47 (length 256)
+H131/PROKKA_02072024:H1_3_1_48 (length 324)
+H131/PROKKA_02072024:H1_3_1_49 (length 149)
+H131/PROKKA_02072024:H1_3_1_50 (length 489)
+H131/PROKKA_02072024:H1_3_1_51 (length 326)
+H131/PROKKA_02072024:H1_3_1_52 (length 268)
+H131/PROKKA_02072024:H1_3_1_53 (length 261)
+H131/PROKKA_02072024:H1_3_1_54 (length 264)
+H131/PROKKA_02072024:H1_3_1_55 (length 262)
+H131/PROKKA_02072024:H1_3_1_56 (length 321)
+H131/PROKKA_02072024:H1_3_1_57 (length 162)
+H131/PROKKA_02072024:H1_3_1_58 (length 406)
+H131/PROKKA_02072024:H1_3_1_59 (length 671)
+H131/PROKKA_02072024:H1_3_1_60 (length 534)
+H131/PROKKA_02072024:H1_3_1_61 (length 105)
+H131/PROKKA_02072024:H1_3_1_62 (length 458)
+H131/PROKKA_02072024:H1_3_1_63 (length 330)
+H131/PROKKA_02072024:H1_3_1_64 (length 552)
+H131/PROKKA_02072024:H1_3_1_65 (length 247)
+H131/PROKKA_02072024:H1_3_1_66 (length 444)
+H131/PROKKA_02072024:H1_3_1_67 (length 222)
+H131/PROKKA_02072024:H1_3_1_68 (length 133)
+H131/PROKKA_02072024:H1_3_1_69 (length 437)
+H131/PROKKA_02072024:H1_3_1_70 (length 614)
+H131/PROKKA_02072024:H1_3_1_71 (length 278)
+H131/PROKKA_02072024:H1_3_1_72 (length 257)
+H131/PROKKA_02072024:H1_3_1_73 (length 170)
+H131/PROKKA_02072024:H1_3_1_74 (length 145)
+H131/PROKKA_02072024:H1_3_1_75 (length 102)
+H131/PROKKA_02072024:H1_3_1_76 (length 455)
+H131/PROKKA_02072024:H1_3_1_77 (length 107)
+H131/PROKKA_02072024:H1_3_1_78 (length 141)
+H131/PROKKA_02072024:H1_3_1_79 (length 230)
+H131/PROKKA_02072024:H1_3_1_80 (length 186)
+H131/PROKKA_02072024:H1_3_1_81 (length 74)
+H131/PROKKA_02072024:H1_3_1_82 (length 331)
+H131/PROKKA_02072024:H1_3_1_83 (length 89)
+H131/PROKKA_02072024:H1_3_1_84 (length 519)
+H131/PROKKA_02072024:H1_3_1_85 (length 118)
+H131/PROKKA_02072024:H1_3_1_86 (length 354)
+H131/PROKKA_02072024:H1_3_1_87 (length 137)
+H131/PROKKA_02072024:H1_3_1_88 (length 314)
+H131/PROKKA_02072024:H1_3_1_89 (length 149)
+H131/PROKKA_02072024:H1_3_1_90 (length 503)
+H131/PROKKA_02072024:H1_3_1_91 (length 260)
+H131/PROKKA_02072024:H1_3_1_92 (length 303)
+H131/PROKKA_02072024:H1_3_1_93 (length 348)
+H131/PROKKA_02072024:H1_3_1_94 (length 262)
+H131/PROKKA_02072024:H1_3_1_95 (length 63)
+H131/PROKKA_02072024:H1_3_1_96 (length 500)
+H131/PROKKA_02072024:H1_3_1_97 (length 102)
+H131/PROKKA_02072024:H1_3_1_98 (length 111)
+H131/PROKKA_02072024:H1_3_1_99 (length 86)
+H131/PROKKA_02072024:H1_3_1_100 (length 328)
+H131/PROKKA_02072024:H1_3_1_101 (length 340)
+H131/PROKKA_02072024:H1_3_1_102 (length 201)
+H131/PROKKA_02072024:H1_3_1_103 (length 353)
+H131/PROKKA_02072024:H1_3_1_104 (length 467)
+H131/PROKKA_02072024:H1_3_1_105 (length 276)
+H131/PROKKA_02072024:H1_3_1_106 (length 611)
+H131/PROKKA_02072024:H1_3_1_107 (length 629)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 107 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 1 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+H131/PROKKA_02072024:H1_3_1 (length 102149)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::108 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:1-1848	EFKEKHPD_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	IS110 family transposase IS884	H1_3_1:c2752-1949	EFKEKHPD_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	putative metallo-hydrolase	H1_3_1:c3312-2929	EFKEKHPD_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	IS256 family transposase IS931	H1_3_1:3434-4747	EFKEKHPD_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:c5316-4582	EFKEKHPD_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Inner membrane protein YgaP	H1_3_1:c6010-5483	EFKEKHPD_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	putative HTH-type transcriptional regulator YgaV	H1_3_1:c6344-6033	EFKEKHPD_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Riboflavin transporter RfnT	H1_3_1:6561-6833	EFKEKHPD_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Riboflavin transporter RfnT	H1_3_1:6843-7700	EFKEKHPD_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Hca operon transcriptional activator HcaR	H1_3_1:c8694-7804	EFKEKHPD_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:c8903-8658	EFKEKHPD_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:9006-9209	EFKEKHPD_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Uptake hydrogenase small subunit	H1_3_1:10051-11148	EFKEKHPD_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Uptake hydrogenase large subunit	H1_3_1:11169-13028	EFKEKHPD_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:13065-13676	EFKEKHPD_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	putative Ni/Fe-hydrogenase B-type cytochrome subunit	H1_3_1:13711-14457	EFKEKHPD_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:14460-14789	EFKEKHPD_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Hydrogenase 1 maturation protease	H1_3_1:14807-15472	EFKEKHPD_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:15474-15776	EFKEKHPD_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:15796-16299	EFKEKHPD_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:16320-17213	EFKEKHPD_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Anaerobic nitric oxide reductase flavorubredoxin	H1_3_1:17203-17430	EFKEKHPD_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:17427-17900	EFKEKHPD_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:17897-19054	EFKEKHPD_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Hydrogenase maturation factor HybF	H1_3_1:19047-19394	EFKEKHPD_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Hydrogenase maturation factor HypB	H1_3_1:19421-20377	EFKEKHPD_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Carbamoyltransferase HypF	H1_3_1:20385-21560	EFKEKHPD_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:21578-21793	EFKEKHPD_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Hydrogenase maturation factor HypD	H1_3_1:21790-22929	EFKEKHPD_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Carbamoyl dehydratase HypE	H1_3_1:22926-24002	EFKEKHPD_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:24114-24554	EFKEKHPD_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Methionyl-tRNA formyltransferase	H1_3_1:24551-26308	EFKEKHPD_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:26305-26694	EFKEKHPD_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Hydrogenase transcriptional regulatory protein hupR1	H1_3_1:26691-28145	EFKEKHPD_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Periplasmic [NiFeSe] hydrogenase small subunit	H1_3_1:28147-29148	EFKEKHPD_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Periplasmic [NiFeSe] hydrogenase large subunit	H1_3_1:29145-30602	EFKEKHPD_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Sensor histidine kinase TmoS	H1_3_1:30603-31943	EFKEKHPD_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:c32341-32180	EFKEKHPD_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Fructose-bisphosphate aldolase	H1_3_1:c33491-32454	EFKEKHPD_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Phosphoglycerate kinase	H1_3_1:c34800-33607	EFKEKHPD_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Glyceraldehyde-3-phosphate dehydrogenase A	H1_3_1:c35813-34797	EFKEKHPD_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Phosphoglycolate phosphatase	H1_3_1:c36481-35810	EFKEKHPD_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Transketolase 1	H1_3_1:c38553-36478	EFKEKHPD_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Phosphoribulokinase, plasmid	H1_3_1:c39428-38550	EFKEKHPD_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Fructose-1,6-bisphosphatase class 1	H1_3_1:c40567-39476	EFKEKHPD_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Ribulose-phosphate 3-epimerase	H1_3_1:c41319-40558	EFKEKHPD_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Protein CbbY	H1_3_1:c42128-41358	EFKEKHPD_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Protein CbbX	H1_3_1:c43095-42121	EFKEKHPD_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Ribulose bisphosphate carboxylase small chain, chromosomal	H1_3_1:c43565-43116	EFKEKHPD_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Ribulose bisphosphate carboxylase large chain, chromosomal	H1_3_1:c45062-43593	EFKEKHPD_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	HTH-type transcriptional activator CmpR	H1_3_1:45168-46148	EFKEKHPD_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	HTH-type transcriptional regulator TsaQ1/TsaQ2	H1_3_1:46695-47501	EFKEKHPD_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	HTH-type transcriptional regulator TsaQ1/TsaQ2	H1_3_1:47504-48289	EFKEKHPD_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	2,3-dehydroadipyl-CoA hydratase	H1_3_1:c49080-48286	EFKEKHPD_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Enoyl-CoA-hydratase	H1_3_1:c49871-49083	EFKEKHPD_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:c50911-49946	EFKEKHPD_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:c51468-50980	EFKEKHPD_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Acetyl-CoA:oxalate CoA-transferase	H1_3_1:c52728-51508	EFKEKHPD_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Acetyl-/propionyl-coenzyme A carboxylase alpha chain	H1_3_1:c54757-52742	EFKEKHPD_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Methylmalonyl-CoA carboxyltransferase 12S subunit	H1_3_1:c56365-54761	EFKEKHPD_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:c56713-56396	EFKEKHPD_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:c58101-56725	EFKEKHPD_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	IS5 family transposase ISBmu2	H1_3_1:c60018-59026	EFKEKHPD_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Putative multidrug resistance protein MdtD	H1_3_1:c62043-60385	EFKEKHPD_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	HTH-type transcriptional regulator NimR	H1_3_1:62349-63092	EFKEKHPD_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Sensor protein QseC	H1_3_1:c64469-63135	EFKEKHPD_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Transcriptional regulatory protein QseB	H1_3_1:c65134-64466	EFKEKHPD_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Cytochrome c biogenesis ATP-binding export protein CcmA	H1_3_1:65315-65716	EFKEKHPD_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	IS256 family transposase IS931	H1_3_1:66237-67550	EFKEKHPD_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Thiol:disulfide interchange protein DsbD	H1_3_1:67791-69635	EFKEKHPD_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Thiol-disulfide oxidoreductase ResA	H1_3_1:69635-70471	EFKEKHPD_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Thiol:disulfide interchange protein DsbG	H1_3_1:70474-71247	EFKEKHPD_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:71337-71849	EFKEKHPD_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:71868-72305	EFKEKHPD_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:72366-72674	EFKEKHPD_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Soluble pyridine nucleotide transhydrogenase	H1_3_1:72708-74075	EFKEKHPD_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:74112-74435	EFKEKHPD_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	HTH-type transcriptional regulator TfdS	H1_3_1:74472-74897	EFKEKHPD_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	IS6 family transposase ISBmu21	H1_3_1:75050-75742	EFKEKHPD_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:c76345-75785	EFKEKHPD_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:76585-76809	EFKEKHPD_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Phenol hydroxylase P1 protein	H1_3_1:76897-77892	EFKEKHPD_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Phenol hydroxylase P2 protein	H1_3_1:77932-78201	EFKEKHPD_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Toluene-4-monooxygenase system, hydroxylase component subunit alpha	H1_3_1:78224-79783	EFKEKHPD_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:79780-80136	EFKEKHPD_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Phenol hydroxylase P5 protein	H1_3_1:80215-81279	EFKEKHPD_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:c81623-81210	EFKEKHPD_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Metapyrocatechase	H1_3_1:81656-82600	EFKEKHPD_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:82622-83071	EFKEKHPD_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	2-hydroxymuconic semialdehyde dehydrogenase	H1_3_1:83138-84649	EFKEKHPD_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	2-hydroxypent-2,4-dienoate hydratase	H1_3_1:84652-85434	EFKEKHPD_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Acetaldehyde dehydrogenase 4	H1_3_1:85513-86424	EFKEKHPD_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	4-hydroxy-2-oxovalerate aldolase 4	H1_3_1:86444-87490	EFKEKHPD_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	2-hydroxyhexa-2,4-dienoate hydratase	H1_3_1:87487-88275	EFKEKHPD_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	2-hydroxymuconate tautomerase	H1_3_1:88287-88478	EFKEKHPD_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Toluene-4-monooxygenase system, hydroxylase component subunit alpha	H1_3_1:88536-90038	EFKEKHPD_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Toluene-4-monooxygenase system, hydroxylase component subunit gamma	H1_3_1:90065-90373	EFKEKHPD_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Toluene-4-monooxygenase system, ferredoxin component	H1_3_1:90429-90764	EFKEKHPD_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Toluene-4-monooxygenase system, effector component	H1_3_1:90859-91119	EFKEKHPD_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Toluene-4-monooxygenase system, hydroxylase component subunit beta	H1_3_1:91174-92160	EFKEKHPD_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Ferredoxin--NAD(P)(+) reductase CarAd	H1_3_1:92260-93282	EFKEKHPD_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Glutathione S-transferase GST-6.0	H1_3_1:93347-93952	EFKEKHPD_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	putative zinc-binding alcohol dehydrogenase	H1_3_1:94092-95153	EFKEKHPD_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:95231-96634	EFKEKHPD_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	2-hydroxy-6-oxo-2,4-heptadienoate hydrolase	H1_3_1:97145-97975	EFKEKHPD_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	Phenol regulator MopR	H1_3_1:98150-99985	EFKEKHPD_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+H131/PROKKA_02072024:CDS	hypothetical protein	H1_3_1:c101847-99958	EFKEKHPD_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+H131/PROKKA_02072024:tRNA	Gly	H1_3_1:c102149-102074	EFKEKHPD_00108
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+H131/PROKKA_02072024:H1_3_1:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+H131/PROKKA_02072024:H1_3_1 (length 102149)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+H131/PROKKA_02072024:H1_3_1 (length 102149)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+H131/PROKKA_02072024:H1_3_1 (length 102149)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+H131/PROKKA_02072024:H1_3_1 (length 102149)
+
+DiscRep_ALL:MISSING_PROJECT::108 sequences do not include project.
+H131/PROKKA_02072024:H1_3_1 (length 102149)
+H131/PROKKA_02072024:H1_3_1_1 (length 615)
+H131/PROKKA_02072024:H1_3_1_2 (length 267)
+H131/PROKKA_02072024:H1_3_1_3 (length 127)
+H131/PROKKA_02072024:H1_3_1_4 (length 437)
+H131/PROKKA_02072024:H1_3_1_5 (length 244)
+H131/PROKKA_02072024:H1_3_1_6 (length 175)
+H131/PROKKA_02072024:H1_3_1_7 (length 103)
+H131/PROKKA_02072024:H1_3_1_8 (length 90)
+H131/PROKKA_02072024:H1_3_1_9 (length 285)
+H131/PROKKA_02072024:H1_3_1_10 (length 296)
+H131/PROKKA_02072024:H1_3_1_11 (length 81)
+H131/PROKKA_02072024:H1_3_1_12 (length 67)
+H131/PROKKA_02072024:H1_3_1_13 (length 365)
+H131/PROKKA_02072024:H1_3_1_14 (length 619)
+H131/PROKKA_02072024:H1_3_1_15 (length 203)
+H131/PROKKA_02072024:H1_3_1_16 (length 248)
+H131/PROKKA_02072024:H1_3_1_17 (length 109)
+H131/PROKKA_02072024:H1_3_1_18 (length 221)
+H131/PROKKA_02072024:H1_3_1_19 (length 100)
+H131/PROKKA_02072024:H1_3_1_20 (length 167)
+H131/PROKKA_02072024:H1_3_1_21 (length 297)
+H131/PROKKA_02072024:H1_3_1_22 (length 75)
+H131/PROKKA_02072024:H1_3_1_23 (length 157)
+H131/PROKKA_02072024:H1_3_1_24 (length 385)
+H131/PROKKA_02072024:H1_3_1_25 (length 115)
+H131/PROKKA_02072024:H1_3_1_26 (length 318)
+H131/PROKKA_02072024:H1_3_1_27 (length 391)
+H131/PROKKA_02072024:H1_3_1_28 (length 71)
+H131/PROKKA_02072024:H1_3_1_29 (length 379)
+H131/PROKKA_02072024:H1_3_1_30 (length 358)
+H131/PROKKA_02072024:H1_3_1_31 (length 146)
+H131/PROKKA_02072024:H1_3_1_32 (length 585)
+H131/PROKKA_02072024:H1_3_1_33 (length 129)
+H131/PROKKA_02072024:H1_3_1_34 (length 484)
+H131/PROKKA_02072024:H1_3_1_35 (length 333)
+H131/PROKKA_02072024:H1_3_1_36 (length 485)
+H131/PROKKA_02072024:H1_3_1_37 (length 446)
+H131/PROKKA_02072024:H1_3_1_38 (length 53)
+H131/PROKKA_02072024:H1_3_1_39 (length 345)
+H131/PROKKA_02072024:H1_3_1_40 (length 397)
+H131/PROKKA_02072024:H1_3_1_41 (length 338)
+H131/PROKKA_02072024:H1_3_1_42 (length 223)
+H131/PROKKA_02072024:H1_3_1_43 (length 691)
+H131/PROKKA_02072024:H1_3_1_44 (length 292)
+H131/PROKKA_02072024:H1_3_1_45 (length 363)
+H131/PROKKA_02072024:H1_3_1_46 (length 253)
+H131/PROKKA_02072024:H1_3_1_47 (length 256)
+H131/PROKKA_02072024:H1_3_1_48 (length 324)
+H131/PROKKA_02072024:H1_3_1_49 (length 149)
+H131/PROKKA_02072024:H1_3_1_50 (length 489)
+H131/PROKKA_02072024:H1_3_1_51 (length 326)
+H131/PROKKA_02072024:H1_3_1_52 (length 268)
+H131/PROKKA_02072024:H1_3_1_53 (length 261)
+H131/PROKKA_02072024:H1_3_1_54 (length 264)
+H131/PROKKA_02072024:H1_3_1_55 (length 262)
+H131/PROKKA_02072024:H1_3_1_56 (length 321)
+H131/PROKKA_02072024:H1_3_1_57 (length 162)
+H131/PROKKA_02072024:H1_3_1_58 (length 406)
+H131/PROKKA_02072024:H1_3_1_59 (length 671)
+H131/PROKKA_02072024:H1_3_1_60 (length 534)
+H131/PROKKA_02072024:H1_3_1_61 (length 105)
+H131/PROKKA_02072024:H1_3_1_62 (length 458)
+H131/PROKKA_02072024:H1_3_1_63 (length 330)
+H131/PROKKA_02072024:H1_3_1_64 (length 552)
+H131/PROKKA_02072024:H1_3_1_65 (length 247)
+H131/PROKKA_02072024:H1_3_1_66 (length 444)
+H131/PROKKA_02072024:H1_3_1_67 (length 222)
+H131/PROKKA_02072024:H1_3_1_68 (length 133)
+H131/PROKKA_02072024:H1_3_1_69 (length 437)
+H131/PROKKA_02072024:H1_3_1_70 (length 614)
+H131/PROKKA_02072024:H1_3_1_71 (length 278)
+H131/PROKKA_02072024:H1_3_1_72 (length 257)
+H131/PROKKA_02072024:H1_3_1_73 (length 170)
+H131/PROKKA_02072024:H1_3_1_74 (length 145)
+H131/PROKKA_02072024:H1_3_1_75 (length 102)
+H131/PROKKA_02072024:H1_3_1_76 (length 455)
+H131/PROKKA_02072024:H1_3_1_77 (length 107)
+H131/PROKKA_02072024:H1_3_1_78 (length 141)
+H131/PROKKA_02072024:H1_3_1_79 (length 230)
+H131/PROKKA_02072024:H1_3_1_80 (length 186)
+H131/PROKKA_02072024:H1_3_1_81 (length 74)
+H131/PROKKA_02072024:H1_3_1_82 (length 331)
+H131/PROKKA_02072024:H1_3_1_83 (length 89)
+H131/PROKKA_02072024:H1_3_1_84 (length 519)
+H131/PROKKA_02072024:H1_3_1_85 (length 118)
+H131/PROKKA_02072024:H1_3_1_86 (length 354)
+H131/PROKKA_02072024:H1_3_1_87 (length 137)
+H131/PROKKA_02072024:H1_3_1_88 (length 314)
+H131/PROKKA_02072024:H1_3_1_89 (length 149)
+H131/PROKKA_02072024:H1_3_1_90 (length 503)
+H131/PROKKA_02072024:H1_3_1_91 (length 260)
+H131/PROKKA_02072024:H1_3_1_92 (length 303)
+H131/PROKKA_02072024:H1_3_1_93 (length 348)
+H131/PROKKA_02072024:H1_3_1_94 (length 262)
+H131/PROKKA_02072024:H1_3_1_95 (length 63)
+H131/PROKKA_02072024:H1_3_1_96 (length 500)
+H131/PROKKA_02072024:H1_3_1_97 (length 102)
+H131/PROKKA_02072024:H1_3_1_98 (length 111)
+H131/PROKKA_02072024:H1_3_1_99 (length 86)
+H131/PROKKA_02072024:H1_3_1_100 (length 328)
+H131/PROKKA_02072024:H1_3_1_101 (length 340)
+H131/PROKKA_02072024:H1_3_1_102 (length 201)
+H131/PROKKA_02072024:H1_3_1_103 (length 353)
+H131/PROKKA_02072024:H1_3_1_104 (length 467)
+H131/PROKKA_02072024:H1_3_1_105 (length 276)
+H131/PROKKA_02072024:H1_3_1_106 (length 611)
+H131/PROKKA_02072024:H1_3_1_107 (length 629)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+H131/PROKKA_02072024:H1_3_1 (length 102149)
+

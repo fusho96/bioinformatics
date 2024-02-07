@@ -1,0 +1,109 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+EFKEKHPD_00001	CDS	1848				hypothetical protein
+EFKEKHPD_00002	CDS	804				IS110 family transposase IS884
+EFKEKHPD_00003	CDS	384		3.-.-.-		putative metallo-hydrolase
+EFKEKHPD_00004	CDS	1314				IS256 family transposase IS931
+EFKEKHPD_00005	CDS	735				hypothetical protein
+EFKEKHPD_00006	CDS	528	ygaP		COG0607	Inner membrane protein YgaP
+EFKEKHPD_00007	CDS	312	ygaV		COG0640	putative HTH-type transcriptional regulator YgaV
+EFKEKHPD_00008	CDS	273	rfnT_1			Riboflavin transporter RfnT
+EFKEKHPD_00009	CDS	858	rfnT_2			Riboflavin transporter RfnT
+EFKEKHPD_00010	CDS	891	hcaR			Hca operon transcriptional activator HcaR
+EFKEKHPD_00011	CDS	246				hypothetical protein
+EFKEKHPD_00012	CDS	204				hypothetical protein
+EFKEKHPD_00013	CDS	1098	hoxK	1.12.99.6		Uptake hydrogenase small subunit
+EFKEKHPD_00014	CDS	1860	hoxG	1.12.99.6		Uptake hydrogenase large subunit
+EFKEKHPD_00015	CDS	612				hypothetical protein
+EFKEKHPD_00016	CDS	747	hupC		COG1969	putative Ni/Fe-hydrogenase B-type cytochrome subunit
+EFKEKHPD_00017	CDS	330				hypothetical protein
+EFKEKHPD_00018	CDS	666	hyaD	3.4.23.-	COG0680	Hydrogenase 1 maturation protease
+EFKEKHPD_00019	CDS	303				hypothetical protein
+EFKEKHPD_00020	CDS	504				hypothetical protein
+EFKEKHPD_00021	CDS	894				hypothetical protein
+EFKEKHPD_00022	CDS	228	norV			Anaerobic nitric oxide reductase flavorubredoxin
+EFKEKHPD_00023	CDS	474				hypothetical protein
+EFKEKHPD_00024	CDS	1158				hypothetical protein
+EFKEKHPD_00025	CDS	348	hybF		COG0375	Hydrogenase maturation factor HybF
+EFKEKHPD_00026	CDS	957	hypB		COG0378	Hydrogenase maturation factor HypB
+EFKEKHPD_00027	CDS	1176	hypF	6.2.-.-	COG0068	Carbamoyltransferase HypF
+EFKEKHPD_00028	CDS	216				hypothetical protein
+EFKEKHPD_00029	CDS	1140	hypD		COG0409	Hydrogenase maturation factor HypD
+EFKEKHPD_00030	CDS	1077	hypE	4.2.1.-		Carbamoyl dehydratase HypE
+EFKEKHPD_00031	CDS	441				hypothetical protein
+EFKEKHPD_00032	CDS	1758	fmt	2.1.2.9		Methionyl-tRNA formyltransferase
+EFKEKHPD_00033	CDS	390				hypothetical protein
+EFKEKHPD_00034	CDS	1455	hupR1		COG2204	Hydrogenase transcriptional regulatory protein hupR1
+EFKEKHPD_00035	CDS	1002		1.12.99.6	COG1740	Periplasmic [NiFeSe] hydrogenase small subunit
+EFKEKHPD_00036	CDS	1458		1.12.99.6	COG0374	Periplasmic [NiFeSe] hydrogenase large subunit
+EFKEKHPD_00037	CDS	1341	tmoS	2.7.13.3		Sensor histidine kinase TmoS
+EFKEKHPD_00038	CDS	162				hypothetical protein
+EFKEKHPD_00039	CDS	1038	cbbA	4.1.2.13		Fructose-bisphosphate aldolase
+EFKEKHPD_00040	CDS	1194	pgk	2.7.2.3	COG0126	Phosphoglycerate kinase
+EFKEKHPD_00041	CDS	1017	gapA	1.2.1.12	COG0057	Glyceraldehyde-3-phosphate dehydrogenase A
+EFKEKHPD_00042	CDS	672	gph	3.1.3.18	COG0546	Phosphoglycolate phosphatase
+EFKEKHPD_00043	CDS	2076	tktA	2.2.1.1	COG0021	Transketolase 1
+EFKEKHPD_00044	CDS	879	cfxP	2.7.1.19	COG3954	Phosphoribulokinase, plasmid
+EFKEKHPD_00045	CDS	1092	fbp	3.1.3.11	COG0158	Fructose-1,6-bisphosphatase class 1
+EFKEKHPD_00046	CDS	762	rpe	5.1.3.1	COG0036	Ribulose-phosphate 3-epimerase
+EFKEKHPD_00047	CDS	771	cbbY	3.1.3.-	COG0637	Protein CbbY
+EFKEKHPD_00048	CDS	975	cbbX		COG0464	Protein CbbX
+EFKEKHPD_00049	CDS	450	cbxSC	4.1.1.39		Ribulose bisphosphate carboxylase small chain, chromosomal
+EFKEKHPD_00050	CDS	1470	cbbL1	4.1.1.39	COG1850	Ribulose bisphosphate carboxylase large chain, chromosomal
+EFKEKHPD_00051	CDS	981	cmpR			HTH-type transcriptional activator CmpR
+EFKEKHPD_00052	CDS	807	tsaQ1_1			HTH-type transcriptional regulator TsaQ1/TsaQ2
+EFKEKHPD_00053	CDS	786	tsaQ1_2			HTH-type transcriptional regulator TsaQ1/TsaQ2
+EFKEKHPD_00054	CDS	795	paaF	4.2.1.17	COG1024	2,3-dehydroadipyl-CoA hydratase
+EFKEKHPD_00055	CDS	789	dpgD	4.2.1.17		Enoyl-CoA-hydratase
+EFKEKHPD_00056	CDS	966				hypothetical protein
+EFKEKHPD_00057	CDS	489				hypothetical protein
+EFKEKHPD_00058	CDS	1221	yfdE	2.8.3.19	COG1804	Acetyl-CoA:oxalate CoA-transferase
+EFKEKHPD_00059	CDS	2016	accA1		COG4770	Acetyl-/propionyl-coenzyme A carboxylase alpha chain
+EFKEKHPD_00060	CDS	1605		2.1.3.1	COG4799	Methylmalonyl-CoA carboxyltransferase 12S subunit
+EFKEKHPD_00061	CDS	318				hypothetical protein
+EFKEKHPD_00062	CDS	1377				hypothetical protein
+EFKEKHPD_00063	CDS	993			COG3039	IS5 family transposase ISBmu2
+EFKEKHPD_00064	CDS	1659	mdtD			Putative multidrug resistance protein MdtD
+EFKEKHPD_00065	CDS	744	nimR			HTH-type transcriptional regulator NimR
+EFKEKHPD_00066	CDS	1335	qseC	2.7.13.3		Sensor protein QseC
+EFKEKHPD_00067	CDS	669	qseB			Transcriptional regulatory protein QseB
+EFKEKHPD_00068	CDS	402	ccmA	7.6.2.5	COG4133	Cytochrome c biogenesis ATP-binding export protein CcmA
+EFKEKHPD_00069	CDS	1314				IS256 family transposase IS931
+EFKEKHPD_00070	CDS	1845	dsbD	1.8.1.8	COG4232	Thiol:disulfide interchange protein DsbD
+EFKEKHPD_00071	CDS	837	resA			Thiol-disulfide oxidoreductase ResA
+EFKEKHPD_00072	CDS	774	dsbG		COG1651	Thiol:disulfide interchange protein DsbG
+EFKEKHPD_00073	CDS	513				hypothetical protein
+EFKEKHPD_00074	CDS	438				hypothetical protein
+EFKEKHPD_00075	CDS	309				hypothetical protein
+EFKEKHPD_00076	CDS	1368	sthA	1.6.1.1		Soluble pyridine nucleotide transhydrogenase
+EFKEKHPD_00077	CDS	324				hypothetical protein
+EFKEKHPD_00078	CDS	426	tfdS			HTH-type transcriptional regulator TfdS
+EFKEKHPD_00079	CDS	693				IS6 family transposase ISBmu21
+EFKEKHPD_00080	CDS	561				hypothetical protein
+EFKEKHPD_00081	CDS	225				hypothetical protein
+EFKEKHPD_00082	CDS	996	mphL	1.14.13.7		Phenol hydroxylase P1 protein
+EFKEKHPD_00083	CDS	270	dmpM	1.14.13.7		Phenol hydroxylase P2 protein
+EFKEKHPD_00084	CDS	1560	tmoA_1	1.14.13.236		Toluene-4-monooxygenase system, hydroxylase component subunit alpha
+EFKEKHPD_00085	CDS	357				hypothetical protein
+EFKEKHPD_00086	CDS	1065	dmpP	1.14.13.7		Phenol hydroxylase P5 protein
+EFKEKHPD_00087	CDS	414				hypothetical protein
+EFKEKHPD_00088	CDS	945	xylE	1.13.11.2		Metapyrocatechase
+EFKEKHPD_00089	CDS	450				hypothetical protein
+EFKEKHPD_00090	CDS	1512	xylG	1.2.1.85		2-hydroxymuconic semialdehyde dehydrogenase
+EFKEKHPD_00091	CDS	783	xylJ	4.2.-.-		2-hydroxypent-2,4-dienoate hydratase
+EFKEKHPD_00092	CDS	912	bphJ	1.2.1.10	COG4569	Acetaldehyde dehydrogenase 4
+EFKEKHPD_00093	CDS	1047	bphI	4.1.3.39	COG0119	4-hydroxy-2-oxovalerate aldolase 4
+EFKEKHPD_00094	CDS	789	tesE	4.2.1.132		2-hydroxyhexa-2,4-dienoate hydratase
+EFKEKHPD_00095	CDS	192	dmpI	5.3.2.6		2-hydroxymuconate tautomerase
+EFKEKHPD_00096	CDS	1503	tmoA_2	1.14.13.236		Toluene-4-monooxygenase system, hydroxylase component subunit alpha
+EFKEKHPD_00097	CDS	309	tmoB	1.14.13.236		Toluene-4-monooxygenase system, hydroxylase component subunit gamma
+EFKEKHPD_00098	CDS	336	tmoC			Toluene-4-monooxygenase system, ferredoxin component
+EFKEKHPD_00099	CDS	261	tmoD			Toluene-4-monooxygenase system, effector component
+EFKEKHPD_00100	CDS	987	tmoE	1.14.13.236		Toluene-4-monooxygenase system, hydroxylase component subunit beta
+EFKEKHPD_00101	CDS	1023	carAd	1.18.1.2		Ferredoxin--NAD(P)(+) reductase CarAd
+EFKEKHPD_00102	CDS	606	gstB	2.5.1.18	COG0625	Glutathione S-transferase GST-6.0
+EFKEKHPD_00103	CDS	1062		1.1.1.1	COG1063	putative zinc-binding alcohol dehydrogenase
+EFKEKHPD_00104	CDS	1404				hypothetical protein
+EFKEKHPD_00105	CDS	831	todF	3.7.1.25		2-hydroxy-6-oxo-2,4-heptadienoate hydrolase
+EFKEKHPD_00106	CDS	1836	mopR			Phenol regulator MopR
+EFKEKHPD_00107	CDS	1890				hypothetical protein
+EFKEKHPD_00108	tRNA	76				tRNA-Gly(gcc)

@@ -1,0 +1,31 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+BAIMKAGO_00001	CDS	1728				hypothetical protein
+BAIMKAGO_00002	CDS	396				hypothetical protein
+BAIMKAGO_00003	CDS	528	ygaP		COG0607	Inner membrane protein YgaP
+BAIMKAGO_00004	CDS	312	ygaV		COG0640	putative HTH-type transcriptional regulator YgaV
+BAIMKAGO_00005	CDS	354				hypothetical protein
+BAIMKAGO_00006	CDS	375				hypothetical protein
+BAIMKAGO_00007	CDS	753	linX	1.1.1.-		2,5-dichloro-2,5-cyclohexadiene-1,4-diol dehydrogenase LinX
+BAIMKAGO_00008	CDS	1221	yfcJ			putative MFS-type transporter YfcJ
+BAIMKAGO_00009	CDS	2106	fyuA		COG1629	Pesticin receptor
+BAIMKAGO_00010	CDS	1782	irtB	3.6.3.-	COG1132	Iron import ATP-binding/permease protein IrtB
+BAIMKAGO_00011	CDS	1773	btuD	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+BAIMKAGO_00012	CDS	1281				hypothetical protein
+BAIMKAGO_00013	CDS	987				hypothetical protein
+BAIMKAGO_00014	CDS	756				hypothetical protein
+BAIMKAGO_00015	CDS	2835				hypothetical protein
+BAIMKAGO_00016	CDS	822				hypothetical protein
+BAIMKAGO_00017	CDS	1809	prsD			Type I secretion system ATP-binding protein PrsD
+BAIMKAGO_00018	CDS	492				hypothetical protein
+BAIMKAGO_00019	CDS	345				hypothetical protein
+BAIMKAGO_00020	CDS	1332	prsE			Type I secretion system membrane fusion protein PrsE
+BAIMKAGO_00021	CDS	1551	tolC		COG1538	Outer membrane protein TolC
+BAIMKAGO_00022	CDS	6240	dltA	6.2.1.54		D-alanine--D-alanyl carrier protein ligase
+BAIMKAGO_00023	CDS	9723	COQ5	2.1.1.163		2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+BAIMKAGO_00024	CDS	1134				hypothetical protein
+BAIMKAGO_00025	CDS	786	pikAV	3.1.2.-		Thioesterase PikA5
+BAIMKAGO_00026	CDS	2940	menE	6.2.1.26		2-succinylbenzoate--CoA ligase
+BAIMKAGO_00027	CDS	660				hypothetical protein
+BAIMKAGO_00028	CDS	891	hcaR			Hca operon transcriptional activator HcaR
+BAIMKAGO_00029	CDS	1944				hypothetical protein
+BAIMKAGO_00030	tRNA	76				tRNA-Gly(gcc)
