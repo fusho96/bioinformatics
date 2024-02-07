@@ -1,0 +1,133 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!-- saved from url=(0022)http://internet.e-mail -->
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+
+<head>
+	<meta http-equiv="Content-Language" content="ja">
+	<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta name="description" content="ReadMe" />
+
+	<title>納品データにつきまして＜生物技研＞</title>
+
+    <style type="text/css">
+    <!--
+    .t01 { font-weight;bold; }
+    .tbl01 { display;table;margin:0px; }
+	.tbl01_tr { display:table-row; }
+	.tbl01_name { display:table-cell; width:130px;padding:15px; }
+	.tbl01_data { display:table-cell; text-align:left; }
+	.tbl01_td { display:table-cell; vertical-align:middle;  }
+    .line01 { width:780px;border-top:2px dashed #cccccc;margin-bottom:15px; }
+    .tbl02 { padding:10px; }
+    -->
+    </style>
+    
+</head>
+  
+<body>  
+<div width="800" style="width:800px;border:1px solid grey;margin:10px;;padding:10px;font-size:0.9em;">
+
+<img src="logo.jpg" alt="SEIBUTSUGIKEN" width="120" />
+
+<br />
+<center><h2>FASTQ形式データと品質コード</h2></center>
+<br />
+<br />
+<br />
+<div class="line01"></div>
+
+<strong>■ FASTQ形式データ</strong><br /><br />
+FASTQ形式は、以下のように4行で1配列(リード)の情報を示しています。<br /><br />
+
+(1行目)	@SEQ_ID<br />
+(2行目)	GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT<br />
+(3行目)	+<br />
+(4行目)	!''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65<br />
+<br />
+1行目: @で必ず始まり、@以降がこの配列の名称を表しています。<br />
+2行目: 塩基配列を表しています。<br />
+3行目: +で必ず始まります。この行はそれ以外に意味はありません。<br />
+4行目: 2行目の塩基の品質を塩基ごとにASCIIコードで表しています。詳細は下をご覧ください。<br />
+<br />
+<br />
+
+<br />
+<div class="line01"></div>
+
+<strong>■ 品質コードについて</strong><br /><br />
+4行目のASCIIコード(品質コード)は、以下のような品質スコアと配列正確度を示しております。
+<br />
+<br />
+<table border=1>
+ <tr><th>ASCIIコード</th><th>品質スコア(Q)</th><th>配列正確度[%]</th><th>ASCIIコード</th><th>品質スコア(Q)</th><th>配列正確度[%]</th></tr>
+ <tr><td align="center">!</td><td align="center">0</td><td align="center">0.0000000000</td><td align="center">Q</td><td align="center">47</td><td align="center">0.9999800474</td></tr>
+ <tr><td align="center">"</td><td align="center">1</td><td align="center">0.2056717653</td><td align="center">R</td><td align="center">48</td><td align="center">0.9999841511</td></tr>
+ <tr><td align="center">#</td><td align="center">2</td><td align="center">0.3690426555</td><td align="center">S</td><td align="center">49</td><td align="center">0.9999874107</td></tr>
+ <tr><td align="center">$</td><td align="center">3</td><td align="center">0.4988127664</td><td align="center">T</td><td align="center">50</td><td align="center">0.9999900000</td></tr>
+ <tr><td align="center">&</td><td align="center">4</td><td align="center">0.6018928294</td><td align="center">U</td><td align="center">51</td><td align="center">0.9999920567</td></tr>
+ <tr><td align="center">'</td><td align="center">5</td><td align="center">0.6837722340</td><td align="center">V</td><td align="center">52</td><td align="center">0.9999936904</td></tr>
+ <tr><td align="center">(</td><td align="center">6</td><td align="center">0.7488113568</td><td align="center">W</td><td align="center">53</td><td align="center">0.9999949881</td></tr>
+ <tr><td align="center">)</td><td align="center">7</td><td align="center">0.8004737685</td><td align="center">X</td><td align="center">54</td><td align="center">0.9999960189</td></tr>
+ <tr><td align="center">*</td><td align="center">8</td><td align="center">0.8415106808</td><td align="center">Y</td><td align="center">55</td><td align="center">0.9999968377</td></tr>
+ <tr><td align="center">+</td><td align="center">9</td><td align="center">0.8741074588</td><td align="center">Z</td><td align="center">56</td><td align="center">0.9999974881</td></tr>
+ <tr><td align="center">,</td><td align="center">10</td><td align="center">0.9000000000</td><td align="center">[</td><td align="center">57</td><td align="center">0.9999980047</td></tr>
+ <tr><td align="center">-</td><td align="center">11</td><td align="center">0.9205671765</td><td align="center">\</td><td align="center">58</td><td align="center">0.9999984151</td></tr>
+ <tr><td align="center">.</td><td align="center">12</td><td align="center">0.9369042656</td><td align="center">]</td><td align="center">59</td><td align="center">0.9999987411</td></tr>
+ <tr><td align="center">/</td><td align="center">13</td><td align="center">0.9498812766</td><td align="center">^</td><td align="center">60</td><td align="center">0.9999990000</td></tr>
+ <tr><td align="center">0</td><td align="center">14</td><td align="center">0.9601892829</td><td align="center">_</td><td align="center">61</td><td align="center">0.9999992057</td></tr>
+ <tr><td align="center">1</td><td align="center">15</td><td align="center">0.9683772234</td><td align="center">`</td><td align="center">62</td><td align="center">0.9999993690</td></tr>
+ <tr><td align="center">2</td><td align="center">16</td><td align="center">0.9748811357</td><td align="center">a</td><td align="center">63</td><td align="center">0.9999994988</td></tr>
+ <tr><td align="center">3</td><td align="center">17</td><td align="center">0.9800473769</td><td align="center">b</td><td align="center">64</td><td align="center">0.9999996019</td></tr>
+ <tr><td align="center">4</td><td align="center">18</td><td align="center">0.9841510681</td><td align="center">c</td><td align="center">65</td><td align="center">0.9999996838</td></tr>
+ <tr><td align="center">5</td><td align="center">19</td><td align="center">0.9874107459</td><td align="center">d</td><td align="center">66</td><td align="center">0.9999997488</td></tr>
+ <tr><td align="center">6</td><td align="center">20</td><td align="center">0.9900000000</td><td align="center">e</td><td align="center">67</td><td align="center">0.9999998005</td></tr>
+ <tr><td align="center">7</td><td align="center">21</td><td align="center">0.9920567177</td><td align="center">f</td><td align="center">68</td><td align="center">0.9999998415</td></tr>
+ <tr><td align="center">8</td><td align="center">22</td><td align="center">0.9936904266</td><td align="center">g</td><td align="center">69</td><td align="center">0.9999998741</td></tr>
+ <tr><td align="center">9</td><td align="center">23</td><td align="center">0.9949881277</td><td align="center">h</td><td align="center">70</td><td align="center">0.9999999000</td></tr>
+ <tr><td align="center">:</td><td align="center">24</td><td align="center">0.9960189283</td><td align="center">i</td><td align="center">71</td><td align="center">0.9999999206</td></tr>
+ <tr><td align="center">;</td><td align="center">25</td><td align="center">0.9968377223</td><td align="center">j</td><td align="center">72</td><td align="center">0.9999999369</td></tr>
+ <tr><td align="center"><</td><td align="center">26</td><td align="center">0.9974881136</td><td align="center">k</td><td align="center">73</td><td align="center">0.9999999499</td></tr>
+ <tr><td align="center">=</td><td align="center">27</td><td align="center">0.9980047377</td><td align="center">l</td><td align="center">74</td><td align="center">0.9999999602</td></tr>
+ <tr><td align="center">></td><td align="center">28</td><td align="center">0.9984151068</td><td align="center">m</td><td align="center">75</td><td align="center">0.9999999684</td></tr>
+ <tr><td align="center">?</td><td align="center">29</td><td align="center">0.9987410746</td><td align="center">n</td><td align="center">76</td><td align="center">0.9999999749</td></tr>
+ <tr><td align="center">@</td><td align="center">30</td><td align="center">0.9990000000</td><td align="center">o</td><td align="center">77</td><td align="center">0.9999999800</td></tr>
+ <tr><td align="center">A</td><td align="center">31</td><td align="center">0.9992056718</td><td align="center">p</td><td align="center">78</td><td align="center">0.9999999842</td></tr>
+ <tr><td align="center">B</td><td align="center">32</td><td align="center">0.9993690427</td><td align="center">q</td><td align="center">79</td><td align="center">0.9999999874</td></tr>
+ <tr><td align="center">C</td><td align="center">33</td><td align="center">0.9994988128</td><td align="center">r</td><td align="center">80</td><td align="center">0.9999999900</td></tr>
+ <tr><td align="center">D</td><td align="center">34</td><td align="center">0.9996018928</td><td align="center">s</td><td align="center">81</td><td align="center">0.9999999921</td></tr>
+ <tr><td align="center">E</td><td align="center">35</td><td align="center">0.9996837722</td><td align="center">t</td><td align="center">82</td><td align="center">0.9999999937</td></tr>
+ <tr><td align="center">F</td><td align="center">36</td><td align="center">0.9997488114</td><td align="center">u</td><td align="center">83</td><td align="center">0.9999999950</td></tr>
+ <tr><td align="center">G</td><td align="center">37</td><td align="center">0.9998004738</td><td align="center">v</td><td align="center">84</td><td align="center">0.9999999960</td></tr>
+ <tr><td align="center">H</td><td align="center">38</td><td align="center">0.9998415107</td><td align="center">w</td><td align="center">85</td><td align="center">0.9999999968</td></tr>
+ <tr><td align="center">I</td><td align="center">39</td><td align="center">0.9998741075</td><td align="center">x</td><td align="center">86</td><td align="center">0.9999999975</td></tr>
+ <tr><td align="center">J</td><td align="center">40</td><td align="center">0.9999000000</td><td align="center">y</td><td align="center">87</td><td align="center">0.9999999980</td></tr>
+ <tr><td align="center">K</td><td align="center">41</td><td align="center">0.9999205672</td><td align="center">z</td><td align="center">88</td><td align="center">0.9999999984</td></tr>
+ <tr><td align="center">L</td><td align="center">42</td><td align="center">0.9999369043</td><td align="center">{</td><td align="center">89</td><td align="center">0.9999999987</td></tr>
+ <tr><td align="center">M</td><td align="center">43</td><td align="center">0.9999498813</td><td align="center">|</td><td align="center">90</td><td align="center">0.9999999990</td></tr>
+ <tr><td align="center">N</td><td align="center">44</td><td align="center">0.9999601893</td><td align="center">}</td><td align="center">91</td><td align="center">0.9999999992</td></tr>
+ <tr><td align="center">O</td><td align="center">45</td><td align="center">0.9999683772</td><td align="center">~</td><td align="center">92</td><td align="center">0.9999999994</td></tr>
+ <tr><td align="center">P</td><td align="center">46</td><td align="center">0.9999748811</td><td align="center"></td><td align="center"></td><td align="center"></td></tr>
+
+</table>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</div>
+
+</div></body>
+</html>
+
+<!-- 2015/06/19 -->
+

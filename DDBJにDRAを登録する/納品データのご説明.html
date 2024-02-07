@@ -1,0 +1,173 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!-- saved from url=(0022)http://internet.e-mail -->
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+
+<head>
+	<meta http-equiv="Content-Language" content="ja">
+	<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta name="description" content="ReadMe" />
+
+	<title>納品データにつきまして＜生物技研＞</title>
+
+    <style type="text/css">
+    <!--
+    .t01 { font-weight;bold; }
+    .tbl01 { display;table;margin:0px; }
+	.tbl01_tr { display:table-row; }
+	.tbl01_name { display:table-cell; width:130px;padding:15px; }
+	.tbl01_data { display:table-cell; text-align:left; }
+	.tbl01_td { display:table-cell; vertical-align:middle;  }
+    .line01 { width:780px;border-top:2px dashed #cccccc;margin-bottom:15px; }
+    .line02 { width:780px;border-top:2px solid #cccccc;margin-bottom:15px; }
+    .tbl02 { padding:10px; }
+    -->
+    </style>
+    
+</head>
+  
+<body>  
+<div width="800" style="width:800px;border:1px solid grey;margin:10px;;padding:10px;font-size:0.9em;">
+
+<img src="img/logo.jpg" alt="SEIBUTSUGIKEN" width="120" />
+
+<br />
+<center><h2>納品データにつきまして</h2></center>
+<br />
+納品させていただきました解析結果のデータについて、ご説明致します。<br />
+
+<br />
+<div class="line01"></div>
+
+<strong>■ Raw_fastq フォルダ</strong><br />
+<div class="tbl01">
+	<div class="tbl01_tr">
+		<div class="tbl01_name">Sample.fastq.gz<small> (※)</small> </div>
+		<div class="tbl01_data">：品質値付き塩基配列となります (HiFiリード)。詳細は<a href="img/Quality.html" target="_blank">こちら</a>をご覧ください。<br />
+		
+		
+		</div>
+	</div>
+	<div class="tbl01_tr">
+		<div class="tbl01_name">experiment.tsv</div>
+		<div class="tbl01_data">：サンプル調製方法およびラン条件に関する情報です。<br />
+			&nbsp;&nbsp;DDBJ-DRAへのデータ登録時、「Experiment」への入力に必須な情報です。<br /></div>
+	</div>
+	<div class="tbl01_tr">
+		<div class="tbl01_name">md5sum.tsv</div>
+		<div class="tbl01_data">：DDBJ-DRAへのデータ登録時、「Run」への入力に必須な情報です。<br />
+			&nbsp;&nbsp;md5値はDDBJへデータ送信時にファイルが破損しているかどうかを確認するために必要な値です。<br />
+		</div>
+	</div>
+</div>
+<br />
+<div class="tbl02">
+	※DDBJ-DRAへのデータ登録を前提として、ファイルを圧縮（gz形式）しております。<br />
+	&nbsp;&nbsp;&nbsp;解凍する場合は、以下の無償ソフト等にて解凍が可能でございます。<br />
+	<br />
+	Lhaplus　（ご所属機関にご確認の上、ご利用ください。）<br />
+	<a href="http://www.vector.co.jp/soft/win95/util/se169348.html" target="_blank">http://www.vector.co.jp/soft/win95/util/se169348.html</a><br />
+	<br />
+	DDBJ-DRAへの登録については、下記の弊社サイトをご参考にしていただければ幸いです。<br />
+	<a href="http://gikenbio.com/dnaanalysis/ngs/ddbj/" target="_blank">http://gikenbio.com/dnaanalysis/ngs/ddbj/</a><br />
+</div>
+
+<br />
+<div class="line01"></div>
+
+<strong>■ Assembly</strong><br />
+<div class="tbl01">
+	<div class="tbl01_tr">
+		<div class="tbl01_name">assembly.fasta</div>
+		<div class="tbl01_data">：アセンブルされたコンティグ配列です。</div>
+</div>
+
+<br />
+<div class="line01"></div>
+
+<strong>■ Annotaion</strong><br />
+<div class="tbl01">
+	<div class="tbl01_tr">
+		<div class="tbl01_name">faa形式データ</div>
+		<div class="tbl01_data">：予測されたタンパク質配列です。</div>
+	</div>
+	<div class="tbl01_tr">
+		<div class="tbl01_name">ffn形式データ </div>
+		<div class="tbl01_data">：予測された遺伝子配列です。<br/> </div>
+	</div>
+	<div class="tbl01_tr">
+		<div class="tbl01_name">gbk/gbf形式データ </div>
+		<div class="tbl01_data">：予測された遺伝子情報をGenBank(gbk/gbf)形式でお示ししています。 </div><br/>
+	</div>
+	<div class="tbl01_tr">
+		<div class="tbl01_name">gff形式データ </div>
+		<div class="tbl01_data">：予測された遺伝子情報をGeneral Feature Format(gff)形式でお示ししています。 </div><br/>
+	</div>
+	<div class="tbl01_tr">
+		<div class="tbl01_name">GO_annotation.xlsx </div>
+		<div class="tbl01_data">：予測された遺伝子に対応したGO termのリストです。 </div><br/>
+	</div>
+	<div class="tbl01_tr">
+		<div class="tbl01_name">KEGG_annotation.xlsx </div>
+		<div class="tbl01_data">：予測された遺伝子にKEGG IDを割り当てています。このKEGG IDをKEGG Mapperにインポートすることで、代謝マップをご覧になることができます。使用方法は、以下の使用方法をご参照下さい。 </div><br/>
+	</div>
+</div>
+<br/>
+				
+<div class="tbl02">
+	
+<br />
+</div>
+
+<br />
+<div class="line01"></div>
+
+
+<center><h2>KEGG Mapperの使用方法</h2></center>
+<br />
+<strong>1. KEGGサイトに移動</strong><br />
+https://www.genome.jp/kegg/mapper/search.html<br /><br />
+
+<strong>2. KEGG IDのインポート<br /></strong>
+下の図の赤枠内にKEGG IDを入力後、Execを選択します。<br /><br /><br />
+<center><img src="img/kegg.jpg" alt="KEGG" width="720" /></center>
+<br />
+<br />
+<strong>3. 代謝経路の選択<br /></strong>
+KEGG IDに対応して代謝経路が表示されます。
+※一部のIDについて、対応する経路が見つからない場合がございます。
+
+<br />
+				
+<br />
+<div class="line01"></div>
+
+<br />
+
+<div class="tbl01" align="right">
+	<div class="tbl01_tr" height="500">
+		<div class="tbl01_td" style="width:400px;"></div>
+		<div class="tbl01_td" style="width:300px;text-align:right;padding:10px;">
+			株式会社 生物技研<br />
+			Tel：046-780-8333　Fax：046-780-8334<br />
+			E-mail：dna@gikenbio.com<br />
+		</div>
+	</div>
+</div>
+
+
+
+<br />
+</div>
+
+</div></body>
+</html>
+
+<!-- 2015/06/19 -->
+

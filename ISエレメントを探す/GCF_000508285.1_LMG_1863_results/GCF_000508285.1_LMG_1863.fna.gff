@@ -1,0 +1,20 @@
+##gff-version 3
+NC_023061.1	ISEScan	insertion_sequence	23	1397	.	+	.	ID=NC_023061.1_IS_1;family=IS21;cluster=IS21_259
+NC_023061.1	ISEScan	terminal_inverted_repeat	23	41	.	+	.	ID=NC_023061.1_IS_1_TIR;parent=NC_023061.1_IS_1
+NC_023061.1	ISEScan	terminal_inverted_repeat	1379	1397	.	+	.	ID=NC_023061.1_IS_1_TIR;parent=NC_023061.1_IS_1
+NC_023061.1	ISEScan	insertion_sequence	3128320	3129053	.	+	.	ID=NC_023061.1_IS_2;family=IS5;cluster=IS5_194
+NC_023061.1	ISEScan	terminal_inverted_repeat	3128320	3128358	.	+	.	ID=NC_023061.1_IS_2_TIR;parent=NC_023061.1_IS_2
+NC_023061.1	ISEScan	terminal_inverted_repeat	3129016	3129053	.	+	.	ID=NC_023061.1_IS_2_TIR;parent=NC_023061.1_IS_2
+NC_023061.1	ISEScan	insertion_sequence	3128887	3132308	.	+	.	ID=NC_023061.1_IS_3;family=IS5;cluster=IS5_194
+NC_023061.1	ISEScan	terminal_inverted_repeat	3128887	3128919	.	+	.	ID=NC_023061.1_IS_3_TIR;parent=NC_023061.1_IS_3
+NC_023061.1	ISEScan	terminal_inverted_repeat	3132276	3132308	.	+	.	ID=NC_023061.1_IS_3_TIR;parent=NC_023061.1_IS_3
+NC_023061.1	ISEScan	insertion_sequence	3742778	3744143	.	+	.	ID=NC_023061.1_IS_4;family=IS256;cluster=IS256_47
+NC_023061.1	ISEScan	terminal_inverted_repeat	3742778	3742804	.	+	.	ID=NC_023061.1_IS_4_TIR;parent=NC_023061.1_IS_4
+NC_023061.1	ISEScan	terminal_inverted_repeat	3744117	3744143	.	+	.	ID=NC_023061.1_IS_4_TIR;parent=NC_023061.1_IS_4
+NC_023061.1	ISEScan	insertion_sequence	3791461	3794019	.	-	.	ID=NC_023061.1_IS_5;family=IS21;cluster=IS21_67
+NC_023061.1	ISEScan	terminal_inverted_repeat	3791461	3791485	.	-	.	ID=NC_023061.1_IS_5_TIR;parent=NC_023061.1_IS_5
+NC_023061.1	ISEScan	terminal_inverted_repeat	3793995	3794019	.	-	.	ID=NC_023061.1_IS_5_TIR;parent=NC_023061.1_IS_5
+NC_023061.1	ISEScan	insertion_sequence	3800379	3801970	.	-	.	ID=NC_023061.1_IS_6;family=IS91;cluster=IS91_50
+NC_023061.1	ISEScan	terminal_inverted_repeat	3800379	3800395	.	-	.	ID=NC_023061.1_IS_6_TIR;parent=NC_023061.1_IS_6
+NC_023061.1	ISEScan	terminal_inverted_repeat	3801954	3801970	.	-	.	ID=NC_023061.1_IS_6_TIR;parent=NC_023061.1_IS_6
+NC_023061.1	ISEScan	insertion_sequence	5002169	5002448	.	-	.	ID=NC_023061.1_IS_7;family=IS21;cluster=IS21_259
