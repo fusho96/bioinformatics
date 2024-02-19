@@ -63,7 +63,7 @@ I prefer to use `MATLAB` for making two y-axis figures, again, it's a personal c
 3. Use Adobe Illustrator to combine all the figures.
 
 ### Ploting phylogenetic tree
-I recommend to download sequences from [EziBioCloud 16S databas](https://www.ezbiocloud.net/).
+I recommend to download sequences from [EziBioCloud 16S database](https://www.ezbiocloud.net/).
 It can provide the results of comparison with type strains of your uploaded sequences. 
 
 1. Prepare the sequences (with root) `./系統樹`
