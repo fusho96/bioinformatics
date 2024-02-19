@@ -28,45 +28,42 @@ please check them there.
 
 ### Statistic test in alpha diversity 
 I use QIIME2 to conduct the analysis first, 
-the results will be located in ./core-metrics-results.
+the results will be located in /core-metrics-results.
 
 QIIME2 uses Kruskal-wallis tests for comparison between groups, which is not recommended here.
-Inside, codes using *R* to do the Dunn test are located in ./アルファ多様性/alpha_test.r (dependant on libraries [agricolae](https://github.com/myaseen208/agricolae) and [dunn.test](https://github.com/cran/dunn.test)).
+Inside, codes using *R* to do the Dunn test are located in `./アルファ多様性/alpha_test.r` (dependant on libraries [agricolae](https://github.com/myaseen208/agricolae) and [dunn.test](https://github.com/cran/dunn.test)).
 
 ### Ploting the alpha diversity
-1. Summarize the alpha diversities into one file ./アルファ多様性/alpha.txt
-2. Run alpha_box_plot.r (dependant on libraries [ggplot2](https://github.com/tidyverse/ggplot2) and [amplicon](https://github.com/microbiota/amplicon)).
-
+1. Summarize the alpha diversities into one file `./アルファ多様性/alpha.txt`
+2. Run `alpha_box_plot.r` (dependant on libraries [ggplot2](https://github.com/tidyverse/ggplot2) and [amplicon](https://github.com/microbiota/amplicon)).
 3. Use Adobe Illustrator to revise the figures as you want.
 
 ### Ploting the beta diversity
-1. Paste the pcoa result (ordination.txt) into ./ベータ多様性
-2. Run beta_pcoa_plot.r (dependant on libraries [ggplot2](https://github.com/tidyverse/ggplot2) and [ggrepel](https://github.com/slowkow/ggrepel)).
-
-4. Use Adobe Illustrator to revise the figures as you want.
+1. Paste the pcoa result (ordination.txt) into `./ベータ多様性`
+2. Run `beta_pcoa_plot.r` (dependant on libraries [ggplot2](https://github.com/tidyverse/ggplot2) and [ggrepel](https://github.com/slowkow/ggrepel)).
+3. Use Adobe Illustrator to revise the figures as you want.
 
 ### Ploting taxanomy barplot
 I use QIIME2 to get the taxanomy asignment first, and filter to what I am interested.
 
-1. Paste the filtered data into ./棒グラフ
-2. Run barplot_plot.r (dependant on libraries [reshape2](https://github.com/cran/reshape2), [ggplot2](https://github.com/tidyverse/ggplot2) and [ggsci](https://github.com/nanxstats/ggsci)).
-   
+1. Paste the filtered data into `./棒グラフ`
+2. Run `barplot_plot.r` (dependant on libraries [reshape2](https://github.com/cran/reshape2), [ggplot2](https://github.com/tidyverse/ggplot2) and [ggsci](https://github.com/nanxstats/ggsci)).
 3. Use Adobe Illustrator to revise the figures as you want.
 
 ### Ploting heatmap
-Personally, I don't like the heatmap made by R, so here I use Python with library [seaborn](https://github.com/mwaskom/seaborn).
-1. Run ./ヒートマップ/seasborn_plot_heatmap.ipynb
+Personally, I don't like the heatmap made by *R*, so here I use Python with library [seaborn](https://github.com/mwaskom/seaborn).
+1. Run `./ヒートマップ/seasborn_plot_heatmap.ipynb`
 2. Use Adobe Illustrator to revise the figures as you want.
 
 ### Ploting other barplot (using ectoine concentration as an example)
-1. Run ./エクトイン濃度/barplot_ectoine.r
+1. Run `./エクトイン濃度/barplot_ectoine.r`
 2. Use Adobe Illustrator to revise the figures as you want.
 
 ### Ploting the current vs. time, and gas concentration vs. time
 I prefer to use MATLAB for making two y-axes figures, again, it's personal choice.
 
-1. Import all your data into MATLAB data format *.mat
-2. Run ./リアクターの電流ー気相/plot_od_code.m
+1. Import all your data into MATLAB data format (*.mat)
+2. Run `./リアクターの電流ー気相/plot_od_code.m`
 3. Use Adobe Illustrator to combine all the figures.
 
 ### Ploting phylogenetic tree
@@ -80,30 +77,30 @@ It can provide the results of comparison with type strains of your uploaded sequ
 ## FOR genome analysis
 
 ### Genome annotation
-1. Prepare your sequence files well. ./ゲノムアノテーション/H1_3_1.fasta
-2. Prokka annotation: Run the commands in prokka_annotation.sh in a conda bash
+1. Prepare your sequence files well and store in `./ゲノムアノテーション/H1_3_1.fasta`
+2. Prokka annotation: Run the commands in `prokka_annotation.sh` in a conda bash
 3. After finishing Prokka annotation, you can use the amino acid sequences to do further KEGG annotations
-   - eggNOG-mapper: upload the amino acid sequences (./KEGGアノテーション/H1_3_1.faa) to http://eggnog-mapper.embl.de
+   - eggNOG-mapper: upload the amino acid sequences (`./KEGGアノテーション/H1_3_1.faa`) to http://eggnog-mapper.embl.de
    - KofamKOALA: upload the amino acid sequences to https://www.genome.jp/tools/kofamkoala/
 
 ### Genome comparison
-1. Use the Genbank files (*.gbk) from you Prokka annotation results. ./ゲノムをを比較する/H1_3_1.gbk and LMG1863.gbk
+1. Use the Genbank files (*.gbk) from you Prokka annotation results `./ゲノムをを比較する/H1_3_1.gbk and LMG1863.gbk`
 2. Open Mauve to align the sequences: Files-Align with progressiveMavue, add the sequences (dependant on JAVA environment)
 
 ### Visulazation the results of genetic clusters
 1. Cut the part of sequences you are interested
 2. Annotate them with Prokka and use the *.gbk files
 3. Clinker visulazation
-   Run the commands in ./遺伝子クラスターを比較して図で視覚化する/gene_cluster_comparison.sh
+   Run the commands in `./遺伝子クラスターを比較して図で視覚化する/gene_cluster_comparison.sh`
 4. Use Adobe Illustrator to revise the figures as you want.
 
 ### Finding insertion sequences
 I recommend to use ISEScan. This tool can provide the length/starting/ending of the insertion sequences.
-There are also some other tools listed in ./ISエレメントを探す/H1_3_1_other_tools.xlsx for finding IS and antibotic genes.
+There are also some other tools listed in `./ISエレメントを探す/H1_3_1_other_tools.xlsx` for finding IS and antibotic genes.
 Please check this file if you need more choices.
 
-1. Prepare the nucleotide sequences ./ISエレメントを探す/H1_3_1.fasta
-2. Run commands in ISEScan.sh
+1. Prepare the nucleotide sequences `./ISエレメントを探す/H1_3_1.fasta`
+2. Run commands in `ISEScan.sh`
 
 ### Calculating DDH and ANI
 Online tools can be much helpful. 
@@ -113,17 +110,17 @@ Online tools can be much helpful.
 ## Sequences submission
 
 ### Submitting raw sequences to DDBJ database
-1. Prepare files as orders in ./DDBJにDRAを登録する
+1. Prepare files as orders in `./DDBJにDRAを登録する`
 2. For more information, check https://www.ddbj.nig.ac.jp/dra/submission.html
 
 ### Submitting 16S rRNA sequences to Genbank
-1. Prepare files as orders in ./Genbankに16S_rRNAを登録する
+1. Prepare files as orders in `./Genbankに16S_rRNAを登録する`
 
 ### Submitting genome sequences with annotation to DDBJ database
 1. Prokka annotation
 2. Make the annotation files (*.tsv) according to the *.gbk files from your Prokka annotation results
 
-  A example can be found in ./DDBJにゲノムを登録する/achromobacter_H1_3_1.annt.tsv
+  A example can be found in `./DDBJにゲノムを登録する/achromobacter_H1_3_1.annt.tsv`
 
 3. Validation using the tools provided by DDBJ
 
