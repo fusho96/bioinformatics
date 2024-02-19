@@ -31,23 +31,17 @@ I use QIIME2 to conduct the analysis first,
 the results will be located in ./core-metrics-results.
 
 QIIME2 uses Kruskal-wallis tests for comparison between groups, which is not recommended here.
-Inside, codes using *R* to do the Dunn test are located in ./アルファ多様性/alpha_test.r
-
-dependant on libraries [agricolae](https://github.com/myaseen208/agricolae) and [dunn.test](https://github.com/cran/dunn.test).
+Inside, codes using *R* to do the Dunn test are located in ./アルファ多様性/alpha_test.r (dependant on libraries [agricolae](https://github.com/myaseen208/agricolae) and [dunn.test]).(https://github.com/cran/dunn.test).
 
 ### Ploting the alpha diversity
 1. Summarize the alpha diversities into one file ./アルファ多様性/alpha.txt
-2. Run alpha_box_plot.r
-
-dependant on libraries [ggplot2](https://github.com/tidyverse/ggplot2) and [amplicon](https://github.com/microbiota/amplicon).
+2. Run alpha_box_plot.r (dependant on libraries [ggplot2](https://github.com/tidyverse/ggplot2) and [amplicon](https://github.com/microbiota/amplicon)).
 
 3. Use Adobe Illustrator to revise the figures as you want.
 
 ### Ploting the beta diversity
 1. Paste the pcoa result (ordination.txt) into ./ベータ多様性
-2. Run beta_pcoa_plot.r
-
-dependant on libraries [ggplot2](https://github.com/tidyverse/ggplot2) and [ggrepel](https://github.com/slowkow/ggrepel).
+2. Run beta_pcoa_plot.r (dependant on libraries [ggplot2](https://github.com/tidyverse/ggplot2) and [ggrepel](https://github.com/slowkow/ggrepel)).
 
 4. Use Adobe Illustrator to revise the figures as you want.
 
@@ -55,9 +49,7 @@ dependant on libraries [ggplot2](https://github.com/tidyverse/ggplot2) and [ggre
 I use QIIME2 to get the taxanomy asignment first, and filter to what I am interested.
 
 1. Paste the filtered data into ./棒グラフ
-2. Run barplot_plot.r
-
-dependant on libraries [reshape2](https://github.com/cran/reshape2), [ggplot2](https://github.com/tidyverse/ggplot2) and [ggsci](https://github.com/nanxstats/ggsci).
+2. Run barplot_plot.r (dependant on libraries [reshape2](https://github.com/cran/reshape2), [ggplot2](https://github.com/tidyverse/ggplot2) and [ggsci](https://github.com/nanxstats/ggsci)).
    
 3. Use Adobe Illustrator to revise the figures as you want.
 
@@ -78,14 +70,12 @@ I prefer to use MATLAB for making two y-axis figures, again, it's personal choic
 3. Use Adobe Illustrator to combine all the figures.
 
 ### For ploting phylogenetic tree
-I recommend to download sequences from EziBioCloud 16S database. http://eggnog-mapper.embl.de/
+I recommend to download sequences from [EziBioCloud 16S databas](https://www.ezbiocloud.net/).
 It can provide the results of comparison with type strains of your uploaded sequences. 
 
 1. Prepare the sequences (with root) ./系統樹
-2. Use MEGA to open the sequences 
-3. Alignment - Align by ClusterW (default settings), then Data-Phylogenetic Analysis
-4. Analysis - Phylogeney - ... (Find parameters in our previous papers, or use your own parameters)
-5. Use Adobe Illustrator to combine all the figures
+2. Use MEGA to construct the trees (Find parameters in our previous papers, or use your own parameters)
+3. Use Adobe Illustrator to combine all the figures
 
 ## FOR genome analysis
 
@@ -98,11 +88,7 @@ It can provide the results of comparison with type strains of your uploaded sequ
 
 ### FOR genome comparison
 1. Use the Genbank files (*.gbk) from you Prokka annotation results. ./ゲノムをを比較する/H1_3_1.gbk and LMG1863.gbk
-2. Open Mauve to align the sequences: Files-Align with progressiveMavue, add the sequences
-
-dependant on JAVA environment
-   
-4. Run align
+2. Open Mauve to align the sequences: Files-Align with progressiveMavue, add the sequences (dependant on JAVA environment)
 
 ### FOR visulazation the results of genetic clusters
 1. Cut the part of sequences you are interested
