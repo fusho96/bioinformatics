@@ -105,8 +105,7 @@ Please check this file if you need more choices.
 
 ### Calculating DDH and ANI
 Online tools can be much helpful. 
-[Genome-to-Genome Distance Calculator 3.0](https://ggdc.dsmz.de/ggdc.php#)
-[ANI Calculator](https://www.ezbiocloud.net/tools/ani)
+[Genome-to-Genome Distance Calculator 3.0](https://ggdc.dsmz.de/ggdc.php#) and [ANI Calculator](https://www.ezbiocloud.net/tools/ani)
 
 ## Sequences submission
 
