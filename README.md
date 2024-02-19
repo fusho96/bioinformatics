@@ -73,7 +73,7 @@ I prefer to use MATLAB for making two y-axes figures, again, it's personal choic
 I recommend to download sequences from [EziBioCloud 16S databas](https://www.ezbiocloud.net/).
 It can provide the results of comparison with type strains of your uploaded sequences. 
 
-1. Prepare the sequences (with root) ./系統樹
+1. Prepare the sequences (with root) './系統樹'
 2. Use MEGA to construct the trees (Find parameters in our previous papers, or use your own parameters)
 3. Use Adobe Illustrator to combine all the figures
 
