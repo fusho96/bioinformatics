@@ -63,7 +63,7 @@ Personally, I don't like the heatmap made by R, so here I use Python with librar
 2. Use Adobe Illustrator to revise the figures as you want.
 
 ### For ploting the current vs. time, and gas concentration vs. time
-I prefer to use MATLAB for making two y-axis figures, again, it's personal choice.
+I prefer to use MATLAB for making two y-axes figures, again, it's personal choice.
 
 1. Import all your data into MATLAB data format *.mat
 2. Run ./リアクターの電流ー気相/plot_od_code.m
