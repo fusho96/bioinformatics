@@ -31,7 +31,7 @@ I use QIIME2 to conduct the analysis first,
 the results will be located in ./core-metrics-results.
 
 QIIME2 uses Kruskal-wallis tests for comparison between groups, which is not recommended here.
-Inside, codes using *R* to do the Dunn test are located in ./アルファ多様性/alpha_test.r (dependant on libraries [agricolae](https://github.com/myaseen208/agricolae) and [dunn.test]).(https://github.com/cran/dunn.test).
+Inside, codes using *R* to do the Dunn test are located in ./アルファ多様性/alpha_test.r (dependant on libraries [agricolae](https://github.com/myaseen208/agricolae) and [dunn.test](https://github.com/cran/dunn.test)).
 
 ### Ploting the alpha diversity
 1. Summarize the alpha diversities into one file ./アルファ多様性/alpha.txt
