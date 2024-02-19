@@ -80,6 +80,7 @@ It can provide the results of comparison with type strains of your uploaded sequ
 1. Prepare your sequence files well and store in `./ゲノムアノテーション/H1_3_1.fasta`
 2. Prokka annotation: Run the commands in `prokka_annotation.sh` in a conda bash
 3. After finishing Prokka annotation, you can use the amino acid sequences to do further KEGG annotations
+   
    - eggNOG-mapper: upload the amino acid sequences (`./KEGGアノテーション/H1_3_1.faa`) to http://eggnog-mapper.embl.de
    - KofamKOALA: upload the amino acid sequences to https://www.genome.jp/tools/kofamkoala/
 
