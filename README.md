@@ -1,17 +1,15 @@
 # Pipline for bioinformatics
-Here listed a pipeline I used for bioinformatics.
+Here is a pipeline I used for bioinformatics.
 
 Tools used in this pipeline:
 1. *R* (ver. 4.0.2)
 2. MATLAB (ver. 2023b)
 3. Python (ver. 3.7)
 4. Miniconda on WSL2 (Ubuntu)
-5. Mauve (ver. 20150226) - Genome comparision
-6. MEGA (ver. 7) - Phylogenetic tree constrution
+5. Mauve (ver. 20150226) - Genome comparison
+6. MEGA (ver. 7) - Phylogenetic tree construction
 
 Tools created as conda environments:
-
-(Thanks for developing these useful tools which helped me a lot in PhD research)
 1. [Prokka](https://github.com/tseemann/prokka) - Genome annotation
 2. [Clinker](https://github.com/gamcil/clinker) - Visualization of the genetic clusters
 3. [ISEScan](https://github.com/xiezhq/ISEScan) - Find insertion sequences
@@ -22,8 +20,8 @@ Online tools:
 3. [EzBioCloud](https://www.ezbiocloud.net/) - 16S rRNA database / ANI calculator
 4. [GGDC](https://ggdc.dsmz.de/ggdc.php#) - DDH calculator
 
-## FOR 16S rRNA amplicon analysis
-Tutorials for using QIIME2 (command and galaxy) have been uploaded to the Google Drive, 
+## For 16S rRNA amplicon analysis
+Tutorials for using QIIME2 (command and galaxy) have been uploaded to Google Drive, 
 please check them there.
 
 ### Statistic test in alpha diversity 
@@ -39,19 +37,18 @@ Inside, codes using *R* to do the Dunn test are located in `./アルファ多様
 3. Use Adobe Illustrator to revise the figures as you want.
 
 ### Ploting the beta diversity
-1. Paste the pcoa result (ordination.txt) into `./ベータ多様性`
+1. Paste the PCoA result (ordination.txt) into `./ベータ多様性`
 2. Run `beta_pcoa_plot.r` (dependant on libraries [ggplot2](https://github.com/tidyverse/ggplot2) and [ggrepel](https://github.com/slowkow/ggrepel)).
 3. Use Adobe Illustrator to revise the figures as you want.
 
-### Ploting taxanomy barplot
-I use QIIME2 to get the taxanomy asignment first, and filter to what I am interested.
-
+### Ploting taxonomy barplot
+I use `QIIME2` to get the taxonomy assignment first and filter to what I am interested in.
 1. Paste the filtered data into `./棒グラフ`
 2. Run `barplot_plot.r` (dependant on libraries [reshape2](https://github.com/cran/reshape2), [ggplot2](https://github.com/tidyverse/ggplot2) and [ggsci](https://github.com/nanxstats/ggsci)).
 3. Use Adobe Illustrator to revise the figures as you want.
 
 ### Ploting heatmap
-Personally, I don't like the heatmap made by *R*, so here I use Python with library [seaborn](https://github.com/mwaskom/seaborn).
+I don't like the heatmap made by *R*, so here I use Python with the library [seaborn](https://github.com/mwaskom/seaborn).
 1. Run `./ヒートマップ/seasborn_plot_heatmap.ipynb`
 2. Use Adobe Illustrator to revise the figures as you want.
 
@@ -60,8 +57,7 @@ Personally, I don't like the heatmap made by *R*, so here I use Python with libr
 2. Use Adobe Illustrator to revise the figures as you want.
 
 ### Ploting the current vs. time, and gas concentration vs. time
-I prefer to use MATLAB for making two y-axes figures, again, it's personal choice.
-
+I prefer to use `MATLAB` for making two y-axis figures, again, it's a personal choice.
 1. Import all your data into MATLAB data format (*.mat)
 2. Run `./リアクターの電流ー気相/plot_od_code.m`
 3. Use Adobe Illustrator to combine all the figures.
@@ -71,52 +67,51 @@ I recommend to download sequences from [EziBioCloud 16S databas](https://www.ezb
 It can provide the results of comparison with type strains of your uploaded sequences. 
 
 1. Prepare the sequences (with root) `./系統樹`
-2. Use MEGA to construct the trees (Find parameters in our previous papers, or use your own parameters)
+2. Use `MEGA` to construct the trees (Find parameters in our previous papers, or use your parameters)
 3. Use Adobe Illustrator to combine all the figures
 
-## FOR genome analysis
+## For genome analysis
 
 ### Genome annotation
-1. Prepare your sequence files well and store in `./ゲノムアノテーション/H1_3_1.fasta`
-2. Prokka annotation: Run the commands in `prokka_annotation.sh` in a conda bash
-3. After finishing Prokka annotation, you can use the amino acid sequences to do further KEGG annotations
+1. Prepare your sequence files well and store them in `./ゲノムアノテーション/H1_3_1.fasta`
+2. `Prokka` annotation: Run the commands in `prokka_annotation.sh` in a conda bash
+3. After finishing the Prokka annotation, you can use the amino acid sequences to do further KEGG annotations
    
-   - eggNOG-mapper: upload the amino acid sequences (`./KEGGアノテーション/H1_3_1.faa`) to http://eggnog-mapper.embl.de
-   - KofamKOALA: upload the amino acid sequences to https://www.genome.jp/tools/kofamkoala/
-
-### Genome comparison
+   - [eggNOG-mapper](http://eggnog-mapper.embl.de): upload the amino acid sequences (`./KEGGアノテーション/H1_3_1.faa`) and submit
+   - [KofamKOALA](https://www.genome.jp/tools/kofamkoala/): upload the amino acid sequences and submit.
+   
+## Genome comparison
 1. Use the Genbank files (*.gbk) from you Prokka annotation results `./ゲノムをを比較する/H1_3_1.gbk and LMG1863.gbk`
-2. Open Mauve to align the sequences: Files-Align with progressiveMavue, add the sequences (dependant on JAVA environment)
+2. Open `Mauve` to align the sequences: Files-Align with progressiveMavue, add the sequences (dependent on JAVA environment)
 
-### Visulazation the results of genetic clusters
+### Visualizing the results of genetic clusters
 1. Cut the part of sequences you are interested
 2. Annotate them with Prokka and use the *.gbk files
-3. Clinker visulazation
+3. `Clinker` visualization
    Run the commands in `./遺伝子クラスターを比較して図で視覚化する/gene_cluster_comparison.sh`
 4. Use Adobe Illustrator to revise the figures as you want.
 
 ### Finding insertion sequences
-I recommend to use ISEScan. This tool can provide the length/starting/ending of the insertion sequences.
-There are also some other tools listed in `./ISエレメントを探す/H1_3_1_other_tools.xlsx` for finding IS and antibotic genes.
+I recommend using `ISEScan`. This tool can provide the length/starting/ending of the insertion sequences.
+There are also some other tools listed in `./ISエレメントを探す/H1_3_1_other_tools.xlsx` for finding IS and antibiotic genes.
 Please check this file if you need more choices.
-
 1. Prepare the nucleotide sequences `./ISエレメントを探す/H1_3_1.fasta`
 2. Run commands in `ISEScan.sh`
 
 ### Calculating DDH and ANI
-Online tools can be much helpful. 
+Online tools can be very helpful. 
 [Genome-to-Genome Distance Calculator 3.0](https://ggdc.dsmz.de/ggdc.php#) and [ANI Calculator](https://www.ezbiocloud.net/tools/ani)
 
 ## Sequences submission
 
-### Submitting raw sequences to DDBJ database
+### Submitting raw sequences to the DDBJ database
 1. Prepare files as orders in `./DDBJにDRAを登録する`
 2. For more information, check https://www.ddbj.nig.ac.jp/dra/submission.html
 
 ### Submitting 16S rRNA sequences to Genbank
 1. Prepare files as orders in `./Genbankに16S_rRNAを登録する`
 
-### Submitting genome sequences with annotation to DDBJ database
+### Submitting genome sequences with annotation to the DDBJ database
 1. Prokka annotation
 2. Make the annotation files (*.tsv) according to the *.gbk files from your Prokka annotation results `./DDBJにゲノムを登録する/achromobacter_H1_3_1.annt.tsv`
 3. Validation using the tools provided by DDBJ
