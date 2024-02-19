@@ -118,10 +118,7 @@ Online tools can be much helpful.
 
 ### Submitting genome sequences with annotation to DDBJ database
 1. Prokka annotation
-2. Make the annotation files (*.tsv) according to the *.gbk files from your Prokka annotation results
-
-  A example can be found in `./DDBJにゲノムを登録する/achromobacter_H1_3_1.annt.tsv`
-
+2. Make the annotation files (*.tsv) according to the *.gbk files from your Prokka annotation results `./DDBJにゲノムを登録する/achromobacter_H1_3_1.annt.tsv`
 3. Validation using the tools provided by DDBJ
 
 
