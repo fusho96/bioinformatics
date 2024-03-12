@@ -75,7 +75,7 @@ If you have an amount of 16S rRNA sequences to identify, I suggest you use local
    （.nhr and .nhq files are not uploaded due to the limitation of file size in Github）
 6. Blasting your seqs (`./Local BLASTの使い方/seqs.fasta`) using this command
    
-   ` blastn -db SILVA_16S -query seqs.fasta -num_threads 4 -out seqs.blastn -outfmt "6 qseqid sseqid pident length mismatch stitle evalue" -evalue 1e-5`
+   `blastn -db SILVA_16S -query seqs.fasta -num_threads 4 -out seqs.blastn -outfmt "6 qseqid sseqid pident length mismatch stitle evalue" -evalue 1e-5 -max_target_seqs 5`
    
    For your own defined output style, you can change the format specifiers of the outfmt.
 8. Your results will be stored in seqs.blastn.
