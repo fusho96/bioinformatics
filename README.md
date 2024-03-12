@@ -62,6 +62,19 @@ I prefer to use `MATLAB` for making two y-axis figures, again, it's a personal c
 2. Run `./リアクターの電流ー気相/plot_od_code.m`
 3. Use Adobe Illustrator to combine all the figures.
 
+### How to use local blastn?
+If you have an amount of 16S rRNA sequences to identify, I suggest you use local BLASTn, rather than the online version.
+1. First, you should have a 16S rRNA database. You can either use SILVA 16S rRNA database or nr/nt database from NCBI.
+   Here, I provided the link for SILVA,  https://www.arb-silva.de/download/arb-files/.
+   The one I downloaded was `./Local BLASTの使い方/SILVA_138.1_SSURef_NR99_tax_silva.fasta`.
+3. If you already have QIIME2 installed, you don't need to install BLAST anymore. The only thing is to activate that conda environment.
+4. Make a blast database using this command
+   `makeblastdb -in SILVA_138.1_SSURef_NR99_tax_silva.fasta -dbtype nucl -out SILVA_16S`
+5. Blasting your seqs (`./Local BLASTの使い方/seqs.fasta`) using this command
+   ` blastn -db SILVA_16S -query seqs.fasta -num_threads 4 -out seqs.blastn -outfmt "6 qseqid sseqid pident length mismatch stitle evalue" -evalue 1e-5`
+   For your own defined output style, you can change the format specifiers of the outfmt.
+7. Your results will be stored in seqs.blastn.
+
 ### Ploting phylogenetic tree
 I recommend to download sequences from [EziBioCloud 16S database](https://www.ezbiocloud.net/).
 It can provide the results of comparison with type strains of your uploaded sequences. 
