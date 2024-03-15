@@ -1,3 +1,10 @@
+# Update on 15/Mar/2024: Prokka installing on osx-arm64 (Apple silicon processor)
+# A dependency of Prokka, Aragorn, has not been native built on osx-arm64. 
+# Here I listed one possible way to solve this issue by creating an osx-64 environments.
+#Check more @ https://stackoverflow.com/questions/70205633/cannot-install-python-3-7-on-osx-arm64
+
+conda config --env --set subdir osx-64
+
 # INSTALL PROKKA IF NOT
 conda create -n prokka -c conda-forge -c bioconda -c defaults prokka
 
