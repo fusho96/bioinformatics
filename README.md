@@ -94,9 +94,9 @@ It can provide the results of comparison with type strains of your uploaded sequ
 1. Prepare your sequence files well and store them in `./ゲノムアノテーション/H1_3_1.fasta`
 2. `Prokka` annotation: Run the commands in `prokka_annotation.sh` in a conda bash
    
-   Update on 15/Mar/2024: Prokka installing on osx-arm64 (Apple silicon processor)
-   A dependency of Prokka, Aragorn, has not been native built on osx-arm64.
-   Here I listed one possible way to solve this issue by creating an osx-64 environments.
+   **Update on 15/Mar/2024:** Prokka installing on osx-arm64 (Apple silicon processor)
+   
+   A dependency of Prokka, Aragorn, has not been native built on osx-arm64. Here I listed one possible way to solve this issue by creating an osx-64 environments.
 
    `conda config --env --set subdir osx-64`
 
