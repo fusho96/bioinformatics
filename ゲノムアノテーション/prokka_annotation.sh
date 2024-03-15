@@ -4,6 +4,7 @@
 #Check more @ https://stackoverflow.com/questions/70205633/cannot-install-python-3-7-on-osx-arm64
 
 conda config --env --set subdir osx-64
+# If you not osx-arm64 user, you don't need to run the command above!
 
 # INSTALL PROKKA IF NOT
 conda create -n prokka -c conda-forge -c bioconda -c defaults prokka
