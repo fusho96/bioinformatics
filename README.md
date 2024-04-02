@@ -94,14 +94,11 @@ It can provide the results of comparison with type strains of your uploaded sequ
 1. Prepare your sequence files well and store them in `./ゲノムアノテーション/H1_3_1.fasta`
 2. `Prokka` annotation: Run the commands in `prokka_annotation.sh` in a conda bash
    
-   **Update on 15/Mar/2024:** Prokka installing on osx-arm64 (Apple silicon processor)
-   
-   A dependency of Prokka, Aragorn, has not been native built on osx-arm64. Here I listed one possible way to solve this issue by creating an osx-64 environments.
+   **Update on 2/Apr/2024:** Prokka installing on osx-arm64 (Apple silicon processor)
+	A docker based installation of Prokka have be updated.
+   `docker run -v prokka:/data staphb/prokka:latest prokka seqs_name.fasta`
+   Please check the `prokka_annotation.sh`.
 
-   `conda config --env --set subdir osx-64`
-
-   Check more @ https://stackoverflow.com/questions/70205633/cannot-install-python-3-7-on-osx-arm64
-      
 4. After finishing the Prokka annotation, you can use the amino acid sequences to do further KEGG annotations
    
    - [eggNOG-mapper](http://eggnog-mapper.embl.de): upload the amino acid sequences (`./KEGGアノテーション/H1_3_1.faa`) and submit
