@@ -95,8 +95,11 @@ It can provide the results of comparison with type strains of your uploaded sequ
 2. `Prokka` annotation: Run the commands in `prokka_annotation.sh` in a conda bash
    
    **Update on 2/Apr/2024:** Prokka installing on osx-arm64 (Apple silicon processor)
+	
 	A docker based installation of Prokka have be updated.
+
    `docker run -v prokka:/data staphb/prokka:latest prokka seqs_name.fasta`
+
    Please check the `prokka_annotation.sh`.
 
 4. After finishing the Prokka annotation, you can use the amino acid sequences to do further KEGG annotations
